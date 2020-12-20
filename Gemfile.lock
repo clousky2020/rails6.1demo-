@@ -105,6 +105,8 @@ GEM
     mina-puma (1.1.0)
       mina (~> 1.2.0)
       puma (>= 2.13)
+    mina-sidekiq (1.0.3)
+      mina (>= 1.0.2)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
@@ -221,6 +223,7 @@ DEPENDENCIES
   listen (~> 3.2)
   mina
   mina-puma
+  mina-sidekiq
   puma (~> 5.0)
   rails (~> 6.1)
   sass-rails (>= 6)
